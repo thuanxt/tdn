@@ -25,8 +25,16 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
-    compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    testCompile("org.springframework.boot:spring-boot-starter-test")
+    // Spring
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // AngularJS
+    compile 'org.webjars:angularjs:1.5.3'
+
+    // Boostrap
+    compile 'org.webjars:bootstrap:3.3.5'
+
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
