@@ -1,4 +1,4 @@
-package hello;
+package com.tdn.metro.domain;
 
 /**
  * Created by thuan_000 on 4/15/2016.
